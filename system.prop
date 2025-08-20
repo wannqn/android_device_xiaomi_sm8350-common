@@ -43,10 +43,3 @@ persist.vendor.sensors.enable.mag_filter=true
 
 # WFD
 persist.debug.wfd.enable=1
-
-# Infinity
-ro.product.marketname=Mi 11 Lite 5G
-ro.infinity.soc=Snapdragon 780G
-ro.infinity.battery=4250 mAh
-ro.infinity.display=1080 x 2400, 90 Hz
-ro.infinity.camera=64MP + 8MP + 5MP
