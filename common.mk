@@ -253,10 +253,6 @@ PRODUCT_PACKAGES += \
 
 $(call soong_config_set,lineage_health,charging_control_supports_bypass,false)
 
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.1-service.sm8350
-
 # Media
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media/init.qti.media.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.media.sh \
